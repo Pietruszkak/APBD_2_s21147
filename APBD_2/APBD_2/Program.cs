@@ -12,6 +12,7 @@ namespace APBD_2
         {
             Console.WriteLine("Hello");
             Console.WriteLine("Modyfikacja 2");
+            Console.WriteLine("Modyfikacja 3");
         }
     }
 }
