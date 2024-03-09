@@ -15,6 +15,7 @@ namespace APBD_2
             Console.WriteLine("Modyfikacja 3");
             Console.WriteLine(GetAvg([1, 2, 3, 4, 5]));
             Console.WriteLine(GetMax([1, 333, 3, 214, 5]));
+            Console.WriteLine("Zad 5 main change");
 
 
             static double GetAvg(int[] arr) {
