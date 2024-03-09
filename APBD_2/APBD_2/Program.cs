@@ -15,6 +15,7 @@ namespace APBD_2
             Console.WriteLine("Modyfikacja 3");
             Console.WriteLine(GetAvg([1, 2, 3, 4, 5]));
             Console.WriteLine(GetMax([1, 333, 3, 214, 5]));
+            Console.WriteLine("Feature-new");
 
 
             static double GetAvg(int[] arr) {
@@ -30,7 +31,7 @@ namespace APBD_2
                 int max = arr[0];
                 for (int i = 1; i < arr.Length; i++)
                 {
-                    if arr[i]> max)
+                    if (arr[i]> max)
                     {
                         max = arr[i];
                     }
